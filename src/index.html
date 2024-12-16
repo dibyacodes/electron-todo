@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todox - just the design</title>
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+    <main>
+        <div id="welcome">
+            <div>
+                <h1 class="username">
+                    Hi, John Doe
+                </h1>
+                <p class="welcomeMessage">
+                    Welcome, to todox.dev. Wish you a very productive day ahead. You'll find all your screen time statistic here
+                </p>
+            </div>
+            <div id="taskPercentage">
+                <div id="percentage"></div>
+                <div class="caption">Work Done</div>
+            </div>
+        </div>
+        <div id="overview">
+            <div class="ovcards">
+                <div id="number_of_tasks"></div>
+                <div class="caption">
+                    Tasks Remaining
+                </div>
+            </div>
+            <div class="ovcards">
+                <div id="completed_tasks"></div>
+                <div class="caption">
+                    Tasks Completed
+                </div>
+            </div>
+            <div class="ovcards">
+                <div id="currentTime">
+                    Loading...
+                </div>
+                <div id="currentDate" class="caption">
+                    Tasks Completed
+                </div>
+            </div>
+        </div>
+        <div id="mainTaskList">
+            <div class="container">
+                <div class="heading">
+                    Tasklist
+                </div>
+                <div id="taskElementGroup">
+                    <div>
+                        <input id="inputCheckbox" type="checkbox">
+                    </div>
+                    <div>
+                        <label id="taskName" for="">Task Name and other properties of the task</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./renders/render.js"></script>
+</body>
+</html>

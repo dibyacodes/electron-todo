@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #000;
+    padding: 1rem;
+    /* prevents the user from selecting the page contents */
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none;     /* Internet Explorer/Edge */
+    user-select: none;         /* Non-prefixed version */
+}
+
+.username{
+    color: white;
+    font-family: sans-serif;
+    font-size: 4rem;
+    font-weight: lighter;
+}
+
+#welcome{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0rem 3rem 0rem;
+}
+
+.welcomeMessage{
+    color: #c0c0c0;
+    max-width: 60ch;
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+
+#taskPercentage{
+    color: white;
+    display: flex;
+    gap: 0.5rem;
+    align-items: baseline;
+}
+
+#overview{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.ovcards{
+    color: white;
+    background-color: #292929;
+    padding: 2rem;
+    border-radius: 1rem;
+    max-width: 30ch;
+    min-width: 5ch;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+
+.caption{
+    font-size: 1.2rem;
+    color: #ff7300;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#percentage{
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.heading{
+    color: white;
+    font-size: 3rem;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#mainTaskList{
+    padding: 4rem 1rem 1rem 1rem;
+}
+
+.container{
+    background-color: #292929;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    border-radius: 1rem;
+}
+
+#taskElementGroup{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background:none;
+    gap: 1rem;
+    padding: 0.4rem 1rem;
+    border-bottom: 0.023rem solid rgb(102, 102, 102);
+}
+
+#taskName{
+    color: white;
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+
+#inputCheckbox[type="checkbox"]{
+    appearance: none;
+    width: 1.05rem;
+    height: 1.05rem;
+    background: none;
+    border: 0.113rem solid white;
+    border-radius: 0.323rem;
+}

@@ -4,8 +4,12 @@
   "description": "a todo list app just for the sake of practice for my software development journey",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
   },
   "author": "dibyacodes",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^33.2.1"
+  }
 }
