@@ -1,0 +1,25 @@
+you need to add a restriction in the number of characters in the name
+
+every task in the app needs to be this structure
+
+{
+    taskName : string,
+    checkedStatus : false, // default
+    taskID : , //a random 4 digit number
+}
+
+And then every for every profile I create I must have
+
+{
+    username : string,
+    userID : ,// a generated random 4 digit number
+}
+
+There will be more features once I get the most basic version of the app launched, features like :
+
+- Adding more than one task list
+- A funky reward system to reward them for completing tasks.
+- Make a built-In pomodro
+- Make built-in flashcards and other study techniques
+
+And making myself able to copy that code to my screen timer tracker application that is in the schedule

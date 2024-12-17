@@ -1,0 +1,5 @@
+/* make the entire application responsive to the main stream window and make it available to the authentic of the main window to make it more visually appealing to the entire user interface. */
+
+::-webkit-scrollbar{
+    display: none;
+}

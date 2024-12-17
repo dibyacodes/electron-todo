@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>todox - just the design</title>
+    <title>studo - just the design</title>
     <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/window.css">
 </head>
 <body>
     <main>
         <div id="welcome">
             <div>
                 <h1 class="username">
-                    Hi, John Doe
+                    Hi, Username
                 </h1>
                 <p class="welcomeMessage">
                     Welcome, to todox.dev. Wish you a very productive day ahead. You'll find all your screen time statistic here
@@ -47,16 +48,22 @@
         <div id="mainTaskList">
             <div class="container">
                 <div class="heading">
-                    Tasklist
+                    <div>
+                        Tasklist
+                    </div>
+                    <div>
+                        <button id="newTaskButton">New +</button>
+                    </div>
                 </div>
-                <div id="taskElementGroup">
+                <!-- <div id="taskElementGroup">
                     <div>
                         <input id="inputCheckbox" type="checkbox">
                     </div>
                     <div>
                         <label id="taskName" for="">Task Name and other properties of the task</label>
                     </div>
-                </div>
+                </div> -->
+                <div id="taskDiv"></div>
             </div>
         </div>
     </main>
